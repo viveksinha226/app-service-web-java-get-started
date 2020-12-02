@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'webappna1'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_e9c69f4b59ac4304befbb36f015b83f2 }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_febd60bc01c14ec99d1c16ab2885b4ef }}
         package: '${{ github.workspace }}/target/*.jar'
